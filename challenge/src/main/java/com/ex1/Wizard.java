@@ -52,3 +52,8 @@ public class Wizard  extends Character implements Attacker{
                 character.hp = character.hp -intelligence;
                 System.out.println(character.name+ " hp: "+character.hp);
                 mana = mana - 5;
+                }
+            }
+        
+    
+}}

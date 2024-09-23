@@ -47,4 +47,13 @@ public class Warrior extends Character implements Attacker{
                    else{
                    System.out.println("A Heavy attack will be made");
                    character.hp = character.hp -strength;
-                   System.out.println(character.name+ " 
+                   System.out.println(character.name+ " hp: "+character.hp);
+                   stamina = stamina - 5;
+                }
+            }      
+        }
+     
+    
+     
+   
+}
